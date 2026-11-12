@@ -5,11 +5,11 @@
   const field = document.getElementById('flowerField');
   if (!field) return;
 
-  // Colour palette matching the emerald green & gold theme
+  // Colour palette matching the dark crimson theme
   const colours = [
-    '#D4AF37', '#E5C158', '#FAF6EE',
-    '#B0C6AB', '#AA821C', '#2D6A4F',
-    '#F0E5CF', '#F3D062'
+    '#C8393A', '#9a1a20', '#F5EBE6',
+    '#C4909A', '#e05050', '#7a0e14',
+    '#F0E4E0', '#A84350'
   ];
 
   // Four SVG flower shapes (as inline SVG strings)
