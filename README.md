@@ -1,32 +1,26 @@
-# Fathima & Fayis — Wedding Reception Website
+# Wedding Invitation Website
 
-Online wedding reception invitation website for **Fathima Abdul Latheef & Fayis Farooq**.
-
-## Event Details
-
-- **Event:** Wedding Reception
-- **Date:** Sunday, 27th December 2026
-- **Time:** 6:00 PM Onwards
-- **Venue:** Thamanna, Customs Road, Vadakara, Kerala
-- **Bride's Parents:** Mr. KV Abdul Latheef & Mrs. Sakeena Latheef
-- **Groom's Parents:** Mr. Muhammed Farook KV & Mrs. Sajira Farook
-- **Contact:** +91 9846966833 / +91 7034188444
+A clone of the wedding invitation website [https://fathimawedding.vercel.app/](https://fathimawedding.vercel.app/).
 
 ## Project Structure
 
-- `index.html` — Main invitation page (splash screen, hero, reception details, live countdown, Google Maps embed, invitation card gallery, wishing box, background music)
-- `style.css` — Luxury dark emerald green & royal gold theme matching the invitation card, responsive styling, and animations
-- `script.js` — Client-side scripts (falling gold & emerald petals, countdown timer to Dec 27, 2026 6:00 PM, audio playback toggle, WhatsApp wishing box)
-- `invitation-card.jpg` — Official wedding reception invitation card
-- `og.jpg` — Social media preview image
-- `music.mp3` — Background instrumental music
+- `index.html` — Main invitation page with interactive elements (splash screen, hero, countdown timer, venue map, couple photo, wishing box, audio player)
+- `style.css` — Custom styling (luxury dark crimson / ivory theme, animations, responsive design)
+- `script.js` — Client-side scripts (falling flower petals, live countdown, splash screen dismissal, music controls, WhatsApp wishing box)
+- `music.mp3` — Background instrumental audio
+- `couples.jpg` — Couple photograph
+- `rashid.png` — Hero section background artwork
+- `og.jpg` — Open Graph preview thumbnail
 
 ## Running Locally
 
-Run with Python:
+You can preview the site using any static web server:
 
 ```bash
+# Python 3
 python3 -m http.server 8000
 ```
 
 Then open `http://localhost:8000` in your web browser.
+
+Alternatively, you can open `index.html` directly in any modern browser.

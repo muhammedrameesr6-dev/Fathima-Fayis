@@ -356,11 +356,10 @@ body {
   display: block;
   font-family: var(--font-sub);
   font-style: italic;
-  font-size: clamp(0.92rem, 2.4vw, 1.15rem);
+  font-size: 13px;
   color: var(--muted);
-  letter-spacing: 0.02em;
-  margin-top: 6px;
-  line-height: 1.4;
+  letter-spacing: 0.01em;
+  margin-top: 4px;
 }
 
 .names .amp {
@@ -1137,48 +1136,4 @@ textarea:focus-visible {
 @keyframes fadeSlideUp {
   from { opacity: 0; transform: translateY(18px); }
   to   { opacity: 1; transform: translateY(0); }
-}
-
-/* ==========================================================================
-   CONTACT BUTTONS & CARD CAPTION (Original Crimson Theme)
-   ========================================================================== */
-.contact-row {
-  display: flex;
-  justify-content: center;
-  gap: 12px;
-  flex-wrap: wrap;
-  margin-top: 22px;
-}
-
-.contact-pill {
-  display: inline-flex;
-  align-items: center;
-  gap: 9px;
-  padding: 11px 20px;
-  border: 1px solid var(--line);
-  background: rgba(200, 57, 58, 0.12);
-  color: var(--gold-soft);
-  font-family: var(--font-eyebrow);
-  font-size: 0.72rem;
-  letter-spacing: 0.12em;
-  text-decoration: none;
-  transition: all 0.25s ease;
-}
-
-.contact-pill:hover {
-  background: linear-gradient(135deg, #9a1a20, #C8393A, #7a0e14);
-  color: #fff;
-  border-color: var(--gold);
-  transform: translateY(-2px);
-  box-shadow: 0 8px 20px rgba(230, 33, 23, 0.35);
-}
-
-.card-caption {
-  font-family: var(--font-eyebrow);
-  font-size: 0.7rem;
-  letter-spacing: 0.2em;
-  text-transform: uppercase;
-  color: var(--muted);
-  text-align: center;
-  margin-top: 14px;
 }
