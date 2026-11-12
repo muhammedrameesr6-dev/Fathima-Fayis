@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fathima &amp; Fayis — Wedding Reception Invitation</title>
+  <meta name="description"
+    content="Wedding reception invitation for Fathima Abdul Latheef and Fayis Farooq — Sunday, 27th December 2026 at Thamanna, Customs Road, Vadakara">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Fathima &amp; Fayis — Wedding Reception Invitation">
+  <meta property="og:description"
+    content="Cordially invite you for the Reception of Fathima Abdul Latheef &amp; Fayis Farooq — Sunday, 27th December 2026">
+  <meta property="og:image" content="invitation-card.jpg">
+  <meta property="og:image:width" content="682">
+  <meta property="og:image:height" content="1024">
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:title" content="Fathima &amp; Fayis — Wedding Reception Invitation">
+  <meta property="twitter:description"
+    content="Cordially invite you for the Reception of Fathima Abdul Latheef &amp; Fayis Farooq — Sunday, 27th December 2026">
+  <meta property="twitter:image" content="invitation-card.jpg">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Amiri:ital@0;1&family=Cinzel:wght@400;500;600;700&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Great+Vibes&family=Lora:ital,wght@0,400;0,500;1,400&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- ============ REUSABLE BOTANICAL LINE-ART MOTIFS ============ -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <defs>
+      <symbol id="sprig-motif" viewBox="0 0 120 200">
+        <path d="M60 194 C 57 150, 66 108, 60 66 C 56 38, 62 18, 60 4" fill="none" stroke="currentColor"
+          stroke-width="1.4" stroke-linecap="round" />
+        <path d="M60 150 C 40 145, 27 129, 30 110 C 49 114, 61 130, 60 150 Z" fill="none" stroke="currentColor"
+          stroke-width="1.15" stroke-linejoin="round" />
+        <path d="M60 150 C 80 145, 93 129, 90 110 C 71 114, 59 130, 60 150 Z" fill="none" stroke="currentColor"
+          stroke-width="1.15" stroke-linejoin="round" />
+        <path d="M60 108 C 43 104, 33 90, 37 73 C 54 78, 63 93, 60 108 Z" fill="none" stroke="currentColor"
+          stroke-width="1.1" stroke-linejoin="round" />
+        <path d="M60 108 C 77 104, 87 90, 83 73 C 66 78, 57 93, 60 108 Z" fill="none" stroke="currentColor"
+          stroke-width="1.1" stroke-linejoin="round" />
+        <g>
+          <ellipse cx="60" cy="4" rx="5.5" ry="9.5" fill="none" stroke="currentColor" stroke-width="0.95" />
+          <ellipse cx="60" cy="4" rx="5.5" ry="9.5" fill="none" stroke="currentColor" stroke-width="0.95"
+            transform="rotate(72 60 4)" />
+          <ellipse cx="60" cy="4" rx="5.5" ry="9.5" fill="none" stroke="currentColor" stroke-width="0.95"
+            transform="rotate(144 60 4)" />
+          <ellipse cx="60" cy="4" rx="5.5" ry="9.5" fill="none" stroke="currentColor" stroke-width="0.95"
+            transform="rotate(216 60 4)" />
+          <ellipse cx="60" cy="4" rx="5.5" ry="9.5" fill="none" stroke="currentColor" stroke-width="0.95"
+            transform="rotate(288 60 4)" />
+          <circle cx="60" cy="4" r="2.1" fill="currentColor" stroke="none" />
+        </g>
+      </symbol>
+
+      <symbol id="divider-motif" viewBox="0 0 200 24">
+        <line x1="0" y1="12" x2="78" y2="12" stroke="currentColor" stroke-width="1" />
+        <line x1="122" y1="12" x2="200" y2="12" stroke="currentColor" stroke-width="1" />
+        <path d="M100 12 C 91 3, 78 3, 74 10 C 83 15, 94 15, 100 12 Z" fill="none" stroke="currentColor"
+          stroke-width="1" />
+        <path d="M100 12 C 109 3, 122 3, 126 10 C 117 15, 106 15, 100 12 Z" fill="none" stroke="currentColor"
+          stroke-width="1" />
+        <circle cx="100" cy="10.5" r="2.1" fill="currentColor" stroke="none" />
+      </symbol>
+    </defs>
+  </svg>
+
+  <!-- ============ SPLASH OVERLAY ============ -->
+  <div class="splash-overlay" id="splashOverlay" role="dialog" aria-modal="true" aria-label="Wedding invitation">
+    <div class="splash-card">
+      <svg class="splash-sprig" width="34" height="58" aria-hidden="true">
+        <use href="#sprig-motif" />
+      </svg>
+      <p class="splash-bismillah">بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ</p>
+      <div class="splash-names">
+        <span class="splash-name">Fathima</span>
+        <span class="splash-amp">&amp;</span>
+        <span class="splash-name">Fayis</span>
+      </div>
+      <p class="splash-tagline">Cordially Invite You For The Reception</p>
+      <button class="splash-btn" id="openInvitationBtn">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+          <path d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
+            stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" />
+        </svg>
+        Open Invitation
+      </button>
+    </div>
+  </div>
+
+  <!-- ============ FALLING FLOWERS ============ -->
+  <div class="flower-field" id="flowerField" aria-hidden="true"></div>
+
+  <!-- ============ HERO ============ -->
+  <section class="hero" id="hero">
+    <!-- Ambient shimmer particles -->
+    <div class="hero-ambient" aria-hidden="true"></div>
+
+    <svg class="hero-sprig hero-sprig--left" aria-hidden="true">
+      <use href="#sprig-motif" />
+    </svg>
+    <svg class="hero-sprig hero-sprig--right" aria-hidden="true">
+      <use href="#sprig-motif" />
+    </svg>
+
+    <div class="hero-content">
+      <p class="bismillah-arabic">بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ</p>
+      <p class="bismillah-en">In the name of Allah, the Most Gracious, the Most Merciful</p>
+
+      <svg class="glyph-divider" aria-hidden="true">
+        <use href="#divider-motif" />
+      </svg>
+
+      <p class="eyebrow">Cordially Invite You For The Reception Of</p>
+
+      <h1 class="names">
+        <span class="name-block">
+          <span class="name-text">Fathima Abdul Latheef</span>
+          <span class="parent-text">D/o Mr. KV Abdul Latheef &amp; Mrs. Sakeena Latheef</span>
+        </span>
+        <span class="amp">&amp;</span>
+        <span class="name-block">
+          <span class="name-text">Fayis Farooq</span>
+          <span class="parent-text">S/o Mr. Muhammed Farook KV &amp; Mrs. Sajira Farook</span>
+        </span>
+      </h1>
+
+      <div class="hero-date">
+        <p class="date-en">Sunday · 27th December 2026</p>
+        <p class="date-hijri">6:00 PM Onwards</p>
+      </div>
+    </div>
+
+    <div class="scroll-cue" aria-hidden="true">
+      <span></span>
+      <p>Scroll</p>
+    </div>
+  </section>
+
+  <!-- ============ INVITATION LINE ============ -->
+  <section class="invite-note">
+    <svg class="glyph-divider small" aria-hidden="true">
+      <use href="#divider-motif" />
+    </svg>
+    <p>
+      With hearts full of gratitude and joy, we cordially invite you to celebrate the
+      wedding reception of our beloved Fathima &amp; Fayis &mdash; a blessed beginning,
+      surrounded by family and cherished by all those we hold dear.
+    </p>
+  </section>
+
+  <!-- ============ THE OCCASION ============ -->
+  <section class="section occasion" id="occasion">
+    <p class="section-eyebrow">Join Us On Our Special Day</p>
+    <h2 class="section-title">Wedding Reception</h2>
+
+    <!-- Occasion Card -->
+    <div class="occasion-card reveal">
+      <svg class="card-corner-sprig" aria-hidden="true">
+        <use href="#sprig-motif" />
+      </svg>
+      <p class="occasion-event-title">Reception Details</p>
+
+      <!-- Date -->
+      <div class="occasion-row">
+        <div class="occasion-icon">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+            <rect x="3" y="4" width="18" height="18" rx="2" stroke="currentColor" stroke-width="1.4" />
+            <path d="M3 10h18M8 2v4M16 2v4" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" />
+          </svg>
+        </div>
+        <div>
+          <p class="occasion-label">Date</p>
+          <p class="occasion-value">Sunday, 27th December 2026</p>
+        </div>
+      </div>
+
+      <div class="occasion-divider"></div>
+
+      <!-- Time -->
+      <div class="occasion-row">
+        <div class="occasion-icon">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+            <path d="M12 6v6l4 2" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" />
+            <circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.5" />
+          </svg>
+        </div>
+        <div>
+          <p class="occasion-label">Time</p>
+          <p class="occasion-value">6:00 PM Onwards</p>
+        </div>
+      </div>
+
+      <div class="occasion-divider"></div>
+
+      <!-- Venue -->
+      <div class="occasion-row">
+        <div class="occasion-icon">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+            <path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2V9z" stroke="currentColor" stroke-width="1.4"
+              stroke-linejoin="round" />
+            <path d="M9 22V12h6v10" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round" />
+          </svg>
+        </div>
+        <div>
+          <p class="occasion-label">Venue</p>
+          <p class="occasion-value">Thamanna</p>
+          <p class="occasion-venue-sub">Customs Road, Vadakara, Kerala</p>
+        </div>
+      </div>
+
+      <div class="occasion-divider"></div>
+
+      <!-- Contact Numbers -->
+      <div class="occasion-row">
+        <div class="occasion-icon">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+            <path
+              d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z"
+              stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" />
+          </svg>
+        </div>
+        <div>
+          <p class="occasion-label">Contact / Mobile</p>
+          <p class="occasion-venue-sub">+91 9846966833 &nbsp;|&nbsp; +91 7034188444</p>
+        </div>
+      </div>
+
+      <div class="contact-row">
+        <a href="tel:+919846966833" class="contact-pill">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none">
+            <path
+              d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z"
+              stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+          </svg>
+          Call 9846966833
+        </a>
+        <a href="tel:+917034188444" class="contact-pill">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none">
+            <path
+              d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z"
+              stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+          </svg>
+          Call 7034188444
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ COUNTDOWN ============ -->
+  <section class="section countdown" id="countdown">
+    <p class="section-eyebrow">Until We Celebrate</p>
+    <h2 class="section-title">Counting Down</h2>
+
+    <div class="countdown-grid reveal" id="countdownGrid">
+      <div class="count-box">
+        <span class="count-num" id="cd-days">00</span>
+        <span class="count-label">Days</span>
+      </div>
+      <div class="count-box">
+        <span class="count-num" id="cd-hours">00</span>
+        <span class="count-label">Hours</span>
+      </div>
+      <div class="count-box">
+        <span class="count-num" id="cd-mins">00</span>
+        <span class="count-label">Mins</span>
+      </div>
+      <div class="count-box">
+        <span class="count-num" id="cd-secs">00</span>
+        <span class="count-label">Secs</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ VENUE ============ -->
+  <section class="section venue" id="venue">
+    <p class="section-eyebrow">Find Your Way</p>
+    <h2 class="section-title">The Venue</h2>
+
+    <div class="venue-card reveal">
+      <svg class="card-corner-sprig" aria-hidden="true">
+        <use href="#sprig-motif" />
+      </svg>
+      <p class="venue-name">Thamanna</p>
+      <p class="venue-address">
+        Customs Road, Vadakara<br>
+        Kerala, India
+      </p>
+
+      <!-- Embedded Google Map -->
+      <iframe class="venue-map" 
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15638.983995669935!2d75.5786725!3d11.6022874!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba6833b37805177%3A0xe543fa00cb62fbba!2sCustoms%20Rd%2C%20Vadakara%2C%20Kerala!5e0!3m2!1sen!2sin!4v1710000000000!5m2!1sen!2sin" 
+        allowfullscreen="" 
+        loading="lazy" 
+        referrerpolicy="no-referrer-when-downgrade">
+      </iframe>
+
+      <a class="maps-btn" href="https://www.google.com/maps/search/?api=1&query=Thamanna,+Customs+Road,+Vadakara,+Kerala" target="_blank" rel="noopener">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none">
+          <path d="M12 21s7-6.1 7-11.5A7 7 0 0 0 5 9.5C5 14.9 12 21 12 21Z" stroke="currentColor" stroke-width="1.5"
+            stroke-linejoin="round" />
+          <circle cx="12" cy="9.5" r="2.2" stroke="currentColor" stroke-width="1.5" />
+        </svg>
+        Open Google Maps
+      </a>
+    </div>
+  </section>
+
+  <!-- ============ INVITATION CARD SECTION ============ -->
+  <section class="section couples-section" id="invitation-card">
+    <p class="section-eyebrow">Formal Invitation</p>
+    <h2 class="section-title">Invitation Card</h2>
+
+    <div class="couples-img-container reveal">
+      <img src="invitation-card.jpg" alt="Fathima Abdul Latheef &amp; Fayis Farooq Wedding Reception Invitation Card" class="couples-img">
+      <p class="card-caption">Reception of Fathima &amp; Fayis · 27th December 2026</p>
+    </div>
+  </section>
+
+  <!-- ============ WISHING BOX ============ -->
+  <section class="section wish-section" id="wishes">
+    <p class="section-eyebrow">Send Your Blessings</p>
+    <h2 class="section-title">Wishing Box</h2>
+
+    <div class="wish-card reveal">
+      <svg class="card-corner-sprig" aria-hidden="true">
+        <use href="#sprig-motif" />
+      </svg>
+
+      <p class="wish-intro">
+        Leave a heartfelt wish or dua for Fathima &amp; Fayis via WhatsApp 💌
+      </p>
+
+      <form class="wish-form" id="wishForm" novalidate>
+        <div class="wish-field">
+          <label class="wish-label" for="wishName">Your Name</label>
+          <input
+            class="wish-input"
+            type="text"
+            id="wishName"
+            name="name"
+            placeholder="e.g. Mohammed Ali"
+            autocomplete="name"
+            required
+          >
+        </div>
+
+        <div class="wish-field">
+          <label class="wish-label" for="wishMessage">Your Wish / Dua</label>
+          <textarea
+            class="wish-input wish-textarea"
+            id="wishMessage"
+            name="message"
+            rows="5"
+            placeholder="May Allah bless this union with endless love, peace, and happiness…"
+            required
+          ></textarea>
+        </div>
+
+        <button class="wish-submit" type="submit" id="wishSubmitBtn">
+          <svg width="17" height="17" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+            <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"
+              stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+          Send via WhatsApp
+        </button>
+      </form>
+
+      <div class="wish-success" id="wishSuccess" aria-live="polite" hidden>
+        <svg width="42" height="42" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+          <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="1.4"/>
+          <path d="M8 12l3 3 5-5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        <p class="wish-success-title">JazakAllahu Khayran! 🤍</p>
+        <p class="wish-success-sub">Your wish has been opened in WhatsApp. May Allah accept your duas.</p> 
+        <button type="button" class="wish-again-btn" id="wishAgainBtn">Send Another Wish</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ THANK YOU ============ -->
+  <footer class="section thankyou">
+    <svg class="glyph-divider" aria-hidden="true">
+      <use href="#divider-motif" />
+    </svg>
+    <h2 class="section-title">Thank You</h2>
+    <p class="thankyou-text">
+      We are grateful for your love, prayers, and presence on this blessed occasion.
+    </p>
+    <p class="thankyou-names">Fathima &amp; Fayis</p>
+    <p class="parent-text" style="margin-top: 16px;">
+      Mr. KV Abdul Latheef &amp; Mrs. Sakeena Latheef &nbsp;&bull;&nbsp; Mr. Muhammed Farook KV &amp; Mrs. Sajira Farook
+    </p>
+    <p class="occasion-venue-sub" style="margin-top: 10px; font-style: normal; letter-spacing: 0.1em;">
+      Mobile: +91 9846966833 / +91 7034188444
+    </p>
+  </footer>
+
+  <!-- ============ BACKGROUND MUSIC ============ -->
+  <audio id="bgMusic" src="music.mp3" loop preload="auto"></audio>
+
+  <!-- ============ FLOATING MUSIC TOGGLE ============ -->
+  <button class="music-btn" id="musicBtn" aria-label="Pause music" title="Toggle music">
+    <svg class="music-icon music-icon--on" width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+      <path d="M9 18V6l12-2v12" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"
+        stroke-linejoin="round" />
+      <circle cx="6" cy="18" r="3" stroke="currentColor" stroke-width="1.6" />
+      <circle cx="18" cy="16" r="3" stroke="currentColor" stroke-width="1.6" />
+    </svg>
+    <svg class="music-icon music-icon--off" width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true"
+      style="display:none">
+      <path d="M9 18V6l12-2v12" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"
+        stroke-linejoin="round" />
+      <circle cx="6" cy="18" r="3" stroke="currentColor" stroke-width="1.6" />
+      <circle cx="18" cy="16" r="3" stroke="currentColor" stroke-width="1.6" />
+      <line x1="3" y1="3" x2="21" y2="21" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" />
+    </svg>
+    <span class="music-ring" id="musicRing"></span>
+  </button>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
