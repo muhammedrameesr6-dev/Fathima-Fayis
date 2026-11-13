@@ -1,13 +1,13 @@
-# Fayis & Fathima — Wedding Reception Website
+# Fathima & Fayis — Wedding Reception Website
 
-Online wedding reception invitation website for **Fayis Farooq & Fathima Abdul Latheef**.
+Online wedding reception invitation website for **Fathima Abdul Latheef & Fayis Farooq**.
 
 ## Event Details
 
-- **Groom:** Fayis Farooq
-  - **Parents:** Mr. Muhammed Farook KV & Mrs. Sajira Farook
 - **Bride:** Fathima Abdul Latheef
   - **Parents:** Mr. KV Abdul Latheef & Mrs. Sakeena Latheef
+- **Groom:** Fayis Farooq
+  - **Parents:** Mr. Muhammed Farook KV & Mrs. Sajira Farook
 - **Event:** Wedding Reception
 - **Date:** Sunday, 27 December 2026
 - **Time:** 6:00 PM onwards

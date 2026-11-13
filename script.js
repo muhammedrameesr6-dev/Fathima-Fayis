@@ -327,7 +327,7 @@ if (wishForm) {
     if (!valid) { nameEl.focus(); return; }
 
     // Build WhatsApp deep-link with pre-filled message
-    const text = `*Wedding Reception Wish for Fayis & Fathima*\n\n*From:* ${name}\n\n*Message:*\n${msg}`;
+    const text = `*Wedding Reception Wish for Fathima & Fayis*\n\n*From:* ${name}\n\n*Message:*\n${msg}`;
     const url  = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(text)}`;
 
     window.open(url, '_blank');
