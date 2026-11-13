@@ -356,10 +356,11 @@ body {
   display: block;
   font-family: var(--font-sub);
   font-style: italic;
-  font-size: 13px;
+  font-size: clamp(0.92rem, 2.4vw, 1.12rem);
   color: var(--muted);
-  letter-spacing: 0.01em;
-  margin-top: 4px;
+  letter-spacing: 0.02em;
+  margin-top: 6px;
+  line-height: 1.4;
 }
 
 .names .amp {

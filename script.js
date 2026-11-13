@@ -87,7 +87,7 @@
 })();
 
 
-const NIKAH_DATE = new Date('2026-11-12T11:00:00+05:30').getTime();
+const NIKAH_DATE = new Date('2026-12-27T18:00:00+05:30').getTime();
 
 const cdDays = document.getElementById('cd-days');
 const cdHours = document.getElementById('cd-hours');
@@ -327,10 +327,10 @@ if (wishForm) {
     if (!valid) { nameEl.focus(); return; }
 
     // Build WhatsApp deep-link with pre-filled message
-    const text = `*Wedding Wish for Ashik & Fathima*\n\n*From:* ${name}\n\n*Message:*\n${msg}`;
-    const url  = `https://wa.me/${919562327585}?text=${encodeURIComponent(text)}`;
+    const text = `*Wedding Reception Wish for Fayis & Fathima*\n\n*From:* ${name}\n\n*Message:*\n${msg}`;
+    const url  = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(text)}`;
 
-    window.location.href = url;
+    window.open(url, '_blank');
 
     // Show success state
     wishForm.hidden    = true;
