@@ -936,6 +936,19 @@ body {
   line-height: 1.1;
 }
 
+.compliments-text {
+  font-family: var(--font-eyebrow);
+  font-size: clamp(0.66rem, 1.8vw, 0.78rem);
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--gold-soft);
+  margin-top: 24px;
+  padding-top: 18px;
+  border-top: 1px solid var(--line);
+  display: inline-block;
+  opacity: 0.88;
+}
+
 /* ==========================================================================
    RESPONSIVE
    ========================================================================== */
